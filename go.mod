@@ -1,4 +1,4 @@
-module github.com/terraform-linters/tflint-ruleset-template
+module github.com/tninomiya/tflint-ruleset-newrelic-alerts
 
 go 1.17
 
