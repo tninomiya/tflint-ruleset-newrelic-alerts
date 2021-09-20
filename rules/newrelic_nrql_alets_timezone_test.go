@@ -41,8 +41,8 @@ resource "newrelic_nrql_alert_condition" "test_cond" {
 					Message: "'Asia/Tokyo' `TIMEZONE` is not specified",
 					Range: hcl.Range{
 						Filename: "resource.tf",
-						Start:    hcl.Pos{Line: 11, Column: 13},
-						End:      hcl.Pos{Line: 11, Column: 82},
+						Start:    hcl.Pos{Line: 10, Column: 13},
+						End:      hcl.Pos{Line: 10, Column: 63},
 					},
 				},
 			},
