@@ -12,6 +12,7 @@ func main() {
 			Name:    "newrelic_nrql_alerts",
 			Version: "0.1.0",
 			Rules: []tflint.Rule{
+				rules.NewNewrelicNrqlAlertsTimezoneRule(),
 			},
 		},
 	})
