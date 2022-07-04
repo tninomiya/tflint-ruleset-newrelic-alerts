@@ -3,7 +3,6 @@ module github.com/tninomiya/tflint-ruleset-newrelic-alerts
 go 1.17
 
 require (
-	github.com/hashicorp/go-version v1.3.0
 	github.com/hashicorp/hcl/v2 v2.10.1
 	github.com/terraform-linters/tflint-plugin-sdk v0.9.1
 )
@@ -16,6 +15,7 @@ require (
 	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/hashicorp/go-hclog v0.16.2 // indirect
 	github.com/hashicorp/go-plugin v1.4.2 // indirect
+	github.com/hashicorp/go-version v1.6.0 // indirect
 	github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734 // indirect
 	github.com/hashicorp/yamux v0.0.0-20180604194846-3520598351bb // indirect
 	github.com/mattn/go-colorable v0.1.4 // indirect
